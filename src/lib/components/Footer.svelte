@@ -1,8 +1,12 @@
+<script>
+	import { base } from '$app/paths';
+</script>
+
 <footer class="footer">
 	<div class="container">
 		<div class="footer-grid">
 			<div class="footer-brand">
-				<img src="/logo.png" alt="Buiten de Deur" class="footer-logo" />
+				<img src="{base}/logo.png" alt="Buiten de Deur" class="footer-logo" />
 				<p>Onafhankelijk PKVW-adviseur in regio Leiderdorp. Een veilige woning, met advies dat werkt.</p>
 			</div>
 
@@ -36,7 +40,7 @@
 
 			<div class="footer-col">
 				<h4>Keurmerk</h4>
-				<img src="/pkvw-logo.jpg" alt="Politie Keurmerk Veilig Wonen" class="pkvw-badge" />
+				<img src="{base}/pkvw-logo.jpg" alt="Politie Keurmerk Veilig Wonen" class="pkvw-badge" />
 			</div>
 		</div>
 

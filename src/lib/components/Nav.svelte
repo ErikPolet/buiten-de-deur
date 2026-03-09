@@ -1,4 +1,6 @@
 <script lang="ts">
+	import { base } from '$app/paths';
+
 	let scrolled = $state(false);
 	let mobileOpen = $state(false);
 
@@ -25,7 +27,7 @@
 <nav class="nav" class:scrolled>
 	<div class="nav-inner container">
 		<a href="#home" class="logo" onclick={closeMobile}>
-			<img src="/logo.png" alt="Buiten de Deur" />
+			<img src="{base}/logo.png" alt="Buiten de Deur" />
 		</a>
 
 		<ul class="nav-links" class:open={mobileOpen}>

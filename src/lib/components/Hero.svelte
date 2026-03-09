@@ -1,3 +1,7 @@
+<script>
+	import { base } from '$app/paths';
+</script>
+
 <section id="home" class="hero">
 	<div class="hero-bg"></div>
 	<div class="container hero-inner">
@@ -40,7 +44,7 @@
 		<div class="hero-visual">
 		<div class="hero-card">
 			<div class="card-photo-wrap">
-				<img src="/hero.jpg" alt="Matthijs de Bes — PKVW-adviseur" class="card-photo" />
+				<img src="{base}/hero2.png" alt="Matthijs de Bes — PKVW-adviseur" class="card-photo" />
 				<div class="card-photo-overlay"></div>
 			</div>
 			<div class="card-body">
